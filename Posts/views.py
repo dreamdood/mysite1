@@ -5,5 +5,5 @@ from .models import Post
 
 # Create your views here.
 
-def posts(request, *args, **kwargs):
+def posts(request):
     return HttpResponse("Hello, world. You're at the posts index.")
